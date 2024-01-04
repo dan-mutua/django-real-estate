@@ -1,0 +1,40 @@
+
+# Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Virtual Environment
+venv/
+.env
+viv/
+
+
+# Media files
+media/
+
+# Static files
+staticfiles/
+
+# Log files
+*.log
+
+# Temporary files
+*.swp
+
+# Ignore development settings file
+local_settings.py
+
+# Ignore database configuration
+db.sqlite3
+
+# Ignore secret key
+*.secret
+
+# Ignore coverage report files
+htmlcov/
+
+# Ignore test database
+test_db.sqlite3
